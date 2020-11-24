@@ -300,10 +300,13 @@ footer {
     text-decoration: none;
 }
 
+.footer_menu a:hover {
+    text-decoration: underline;
+}
+
 .fm_1,
 .fm_2,
 .fm_3 {
-    display: flex;
     flex: 1;
 
     color: var(--white-text);
@@ -330,6 +333,8 @@ footer {
 .footer_area_item {
     flex: 1;
     color: var(--white-text);
+
+    padding-right: 20px;
 }
 
 footer .widget_title_text {
@@ -351,5 +356,38 @@ footer .widget_title_text {
 }
 
 .footer_copy a:hover {
+    text-decoration: underline;
+}
+
+.footer_content {
+    font-size: 12px;
+    margin: 20px 0 20px 0;
+    color: #5c5c5c;
+}
+
+.widget_body span {
+    color: #5c5c5c;
+    font-size: 12px;
+}
+
+.footer_contact {
+    display: flex;
+    justify-content: space-between;
+
+    color: #5c5c5c;
+    font-size: 12px;
+    padding: 2px 0 2px 0;
+}
+
+.footer_contact .contact {
+    padding-right: 47px;
+}
+
+.footer_contact a {
+    color: var(--white-text);
+    text-decoration: none;
+}
+
+.footer_contact a:hover {
     text-decoration: underline;
 }

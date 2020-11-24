@@ -294,6 +294,12 @@ footer {
     display: flex;
 }
 
+.footer_menu a {
+    color: var(--white-text);
+    font-size: 14px;
+    text-decoration: none;
+}
+
 .fm_1,
 .fm_2,
 .fm_3 {

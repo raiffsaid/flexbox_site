@@ -383,11 +383,26 @@ footer .widget_title_text {
     padding-right: 47px;
 }
 
-.footer_contact a {
+.footer_contact a,
+.footer_content a {
     color: var(--white-text);
     text-decoration: none;
 }
 
-.footer_contact a:hover {
+.footer_contact a:hover,
+.footer_content a:hover {
     text-decoration: underline;
+}
+
+.latest_posts span,
+.latest_tweets span {
+    color: var(--light-blue);
+}
+
+.latest_posts div {
+    margin-bottom: 0;
+}
+
+.latest_tweets div {
+    margin-bottom: 0;
 }

@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, user-scalable=0">
 
     <link rel="stylesheet" href="./public/css/template.css">
+    
+    <script type="text/javascript">
+        window.onload = function() {
+            document.querySelector('.menu_mobile').addEventListener('click', function() {
+                if (document.querySelector('.menu nav ul').style.display == 'flex') {
+                    document.querySelector('.menu nav ul').style.display = 'none';
+                } else {
+                    document.querySelector('.menu nav ul').style.display = 'flex';
+                }
+            });
+        };
+    </script>
 
     <title>Flexbox</title>
 </head>
@@ -19,6 +31,12 @@
 
             <div class="menu">
                 <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+
                     <ul>
                         <li class="active"><a href="">HOME</a></li>
                         <li><a href="">BLOG</a></li>
@@ -331,28 +349,28 @@
                                 #Cleaning Company #Maid #Game
                                 <a href="">link</a>  
                             </div>
-                            <span>6 years ago</span>
+                            <span>4 days ago</span>
 
                             <div class="footer_content">
                                 &rarr; We've released new version (v5.2) 
                                 #Responsive #Schedule
                                 <a href="">link</a> 
                             </div>
-                            <span>6 years ago</span>
+                            <span>6 days ago</span>
 
                             <div class="footer_content">
                                 &rarr; We've released new version (v5.2) 
                                 #Responsive #Schedule
                                 <a href="">link</a> 
                             </div>
-                            <span>6 years ago</span>
+                            <span>7 days ago</span>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="footer_copy">
-                &copy; Copyright - <a href="">MediCenter Template</a> by <a href="">QuanticaLabs</a>
+                &copy; Copyright - All rights reserved.
             </div>
 
         </div>
